@@ -1,0 +1,12 @@
+.jumbotron{
+    background-color: rgb(241, 31, 91);
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    text-align: center;
+}
+
+.card-header{
+    background-color: rgb(66, 84, 247);
+    color: aliceblue;
+}
