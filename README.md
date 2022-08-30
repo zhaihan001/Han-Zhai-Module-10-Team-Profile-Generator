@@ -1,3 +1,7 @@
+Han-Zhai-Module-10-Team-Profile-Generator
+
+![image](https://user-images.githubusercontent.com/106831265/187405300-c5a2fef9-6034-4739-8a5c-bb4218970b13.png)
+
 # Han-Zhai-Module-10-Team-Profile-Generator
 GIVEN a command-line application that accepts user input
 
