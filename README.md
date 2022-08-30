@@ -1,5 +1,7 @@
 # Han-Zhai-Module-10-Team-Profile-Generator
 
+Link to demo: https://drive.google.com/file/d/14pcFzD5XIwYOvuT6BwIepshUe5rB2E2n/view
+
 ![image](https://user-images.githubusercontent.com/106831265/187405300-c5a2fef9-6034-4739-8a5c-bb4218970b13.png)
 
 GIVEN a command-line application that accepts user input
