@@ -5,7 +5,7 @@ function manager(managerInfo) {
             <h3 class="card-header">Title: ${managerInfo.role}</h3>
             <div class="card-body">
                 <p class="card-text">ID: ${managerInfo.id}</p>
-                <p class="card-text"><a href="${managerInfo.email}" target="_blank">Email: ${managerInfo.email}</a></p>
+                <p class="card-text">Email: <a href="mailto:${managerInfo.email}" target="_blank">${managerInfo.email}</a></p>
                 <p class="card-text">Office: ${managerInfo.officeNumber}</p>
             </div>
         </div>`
@@ -18,7 +18,7 @@ function intern(internInfo) {
             <h3 class="card-header">Title: ${internInfo.role}</h3>
             <div class="card-body">
                 <p class="card-text">ID: ${internInfo.id}</p>
-                <p class="card-text"><a href="${internInfo.email}" target="_blank">Email: ${internInfo.email}</a></p>
+                <p class="card-text">Email: <a href="mailto:${internInfo.email}" target="_blank">${internInfo.email}</a></p>
                 <p class="card-text">School: ${internInfo.school}</p>
             </div>
         </div>`
@@ -31,7 +31,7 @@ function engineer(engineerInfo) {
             <h3 class="card-header">Title: ${engineerInfo.role}</h3>
             <div class="card-body">
                 <p class="card-text">ID: ${engineerInfo.id}</p>
-                <p class="card-text"><a href="${engineerInfo.email}" target="_blank">Email: ${engineerInfo.email}</a></p>
+                <p class="card-text">Email: <a href="mailto:${engineerInfo.email}" target="_blank">${engineerInfo.email}</a></p>
                 <p class="card-text">Github Username: <a href="https://github.com/${engineerInfo.github}" target="_blank">${engineerInfo.github}</a></p>
             </div>
         </div>`
