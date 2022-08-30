@@ -12,18 +12,16 @@ function manager(managerInfo) {
 }
 
 function intern(internInfo) {
-    for (const info of internInfo){
-        window.write(`
+        return`
         <div class="card">
-            <h3 class="card-header"> ${info.name}</h3>
-            <h3 class="card-header">Title: ${info.role}</h3>
+            <h3 class="card-header"> ${internInfo.name}</h3>
+            <h3 class="card-header">Title: ${internInfo.role}</h3>
             <div class="card-body">
-                <p class="card-text">ID: ${info.id}</p>
-                <p class="card-text"><a href="${info.email}" target="_blank">Email: ${info.email}</a></p>
-                <p class="card-text">School: ${info.school}</p>
+                <p class="card-text">ID: ${internInfo.id}</p>
+                <p class="card-text"><a href="${internInfo.email}" target="_blank">Email: ${internInfo.email}</a></p>
+                <p class="card-text">School: ${internInfo.school}</p>
             </div>
-        </div>`);
-    }
+        </div>`
 }
 
 function engineer(engineerInfo) {
@@ -57,8 +55,8 @@ function generateHTML(managerInfo, engineerInfo, internInfo) {
         <main class="container">
             <section class="row my-4">
             ${manager(managerInfo)}
-            ${engineer(engineerInfo)}
-            ${intern(internInfo)}
+            ${engineerInfo.map(item => engineer(item)).join("")}
+            ${internInfo.map(item => intern(item)).join("")}
             </section>
         </main>
     </body>
